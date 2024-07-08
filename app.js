@@ -49,3 +49,29 @@ console.log(progressiveSum(3));
 console.log(progressiveSum(4));
 console.log(progressiveSum(600)); */
 
+/* function calcTime(seconds) {
+
+    let minutes = Math.floor(seconds/60)
+   
+    let remainingSeconds = seconds % 60
+
+     if(minutes.toString().length === 1)
+     {
+        if(remainingSeconds === 0 || remainingSeconds < 10 ){
+           remainingSeconds  = '0' + remainingSeconds
+        }
+ 
+        minutes = '0' + minutes;
+     }
+
+    return minutes + ':' + remainingSeconds;
+  
+
+}
+
+
+console.log(calcTime(66));
+console.log(calcTime(50));
+console.log(calcTime(300)); */
+
+
