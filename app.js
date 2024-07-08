@@ -74,4 +74,22 @@ console.log(calcTime(66));
 console.log(calcTime(50));
 console.log(calcTime(300)); */
 
+/*function getMax(arr) {
+ 
+    let max = arr[0];
+    for(let i = 1; i < arr.length; ++i){ //dont user 0 for i = 0
 
+        if (arr[i] > max){
+            max = arr[i];
+        }
+    }
+        
+ 
+    return max; 
+
+
+}
+
+console.log(getMax([5, 100, 0]));
+console.log(getMax([12, 10, -20]));
+console.log(getMax([-300, -100, -200])); */
