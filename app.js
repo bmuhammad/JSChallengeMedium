@@ -21,7 +21,7 @@ console.log(arrLength([]));  */
 function arrSum(arr) {
   result = 0;
 
-  for (let i = 0; i < arr.length; i++) {
+  for (let i = 0; i < arr.length; ++1) {
     result = result + arr[i];
   }
   return result;
@@ -32,3 +32,20 @@ console.log(arrSum([100, 200, 500]));
 console.log(arrSum([0, -5, -10]));
 
 */
+
+/* function progressiveSum(num){
+
+   let sum = 0;
+    for(let i = 1; i <= num; ++i)
+    {
+      sum = sum + i;
+
+    }
+
+    return sum;
+}
+
+console.log(progressiveSum(3));
+console.log(progressiveSum(4));
+console.log(progressiveSum(600)); */
+
