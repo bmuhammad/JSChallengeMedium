@@ -174,7 +174,7 @@ console.log(removeApples(['Banana','Apple','Orange', 'Apple']));
 console.log(removeApples(['Tomato','Orange','Banana']));
 console.log(removeApples(['Banana','Orange', 'Apple'])); */
 
-function filterOutFalsy(arr) {
+/*function filterOutFalsy(arr) {
   let filteredArray = [];
 
   for (let i = 0; i < arr.length; ++i) {
@@ -192,4 +192,10 @@ function filterOutFalsy(arr) {
 
 console.log(filterOutFalsy(["", [], 0, null, undefined, "0"]));
 console.log(filterOutFalsy(["Tomato", "Orange", "Banana", false]));
-console.log(filterOutFalsy(["Banana", "Orange", "Apple"]));
+console.log(filterOutFalsy(["Banana", "Orange", "Apple"]));*/
+
+//function convertToBoolean(arr) {
+ // return arr.map((elem) => !!frameElement);
+//}
+
+//console.log(convertToBoolean([500, 0, "David", "", []]));
