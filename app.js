@@ -163,3 +163,14 @@ console.log(convertToZeros([1,2,3,4,5])); */
 console.log(removeApples(['Banana','Apple','Orange', 'Apple']));
 console.log(removeApples(['Tomato','Orange','Banana']));
 console.log(removeApples(['Banana','Orange', 'Apple'])); */
+
+/*function removeApples(arr){
+
+   return arr.filter(elem => elem !== 'Apple')
+
+}
+
+console.log(removeApples(['Banana','Apple','Orange', 'Apple']));
+console.log(removeApples(['Tomato','Orange','Banana']));
+console.log(removeApples(['Banana','Orange', 'Apple'])); */
+
