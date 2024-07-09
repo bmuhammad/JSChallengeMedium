@@ -93,3 +93,33 @@ console.log(calcTime(300)); */
 console.log(getMax([5, 100, 0]));
 console.log(getMax([12, 10, -20]));
 console.log(getMax([-300, -100, -200])); */
+
+/*function reverseString(str) {
+  let result = "";*/
+  /* for(let i = 0; i < str.length; ++i){
+        result = str[i] + result;
+      
+    }
+*/
+
+ /* for (let i = str.length - 1; i >= 0; --i) {
+    result = result + str[i];
+  } */
+
+ /* for (let i = str.length - 1; i >= 0; --i) {
+    result  += str[i];
+  } */
+
+    /* convert string to array*/
+  /*  result = str.split('').reverse().join('');
+  
+
+
+  return result;
+}
+
+console.log(reverseString("abc"));
+console.log(reverseString("David"));
+console.log(reverseString("This is cool"));*/
+
+
