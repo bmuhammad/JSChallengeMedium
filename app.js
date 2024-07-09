@@ -122,4 +122,27 @@ console.log(reverseString("abc"));
 console.log(reverseString("David"));
 console.log(reverseString("This is cool"));*/
 
+/*function convertToZeros(arr){
+/*solution 1 with for loop
+for(let i = 0; i < arr.length; ++i)
+{
+   arr[i] = 0;
 
+}
+
+return arr;*/
+
+/*solution 2 with fill function
+return new Array(arr.length).fill(0); */
+
+/*solution 3 with arra.map*/
+/*return arr.map(item =>  0); 
+
+
+
+
+}
+
+console.log(convertToZeros([5,100,0]));
+console.log(convertToZeros([12]));
+console.log(convertToZeros([1,2,3,4,5])); */
