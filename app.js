@@ -96,22 +96,22 @@ console.log(getMax([-300, -100, -200])); */
 
 /*function reverseString(str) {
   let result = "";*/
-  /* for(let i = 0; i < str.length; ++i){
+/* for(let i = 0; i < str.length; ++i){
         result = str[i] + result;
       
     }
 */
 
- /* for (let i = str.length - 1; i >= 0; --i) {
+/* for (let i = str.length - 1; i >= 0; --i) {
     result = result + str[i];
   } */
 
- /* for (let i = str.length - 1; i >= 0; --i) {
+/* for (let i = str.length - 1; i >= 0; --i) {
     result  += str[i];
   } */
 
-    /* convert string to array*/
-  /*  result = str.split('').reverse().join('');
+/* convert string to array*/
+/*  result = str.split('').reverse().join('');
   
 
 
@@ -174,3 +174,22 @@ console.log(removeApples(['Banana','Apple','Orange', 'Apple']));
 console.log(removeApples(['Tomato','Orange','Banana']));
 console.log(removeApples(['Banana','Orange', 'Apple'])); */
 
+function filterOutFalsy(arr) {
+  let filteredArray = [];
+
+  for (let i = 0; i < arr.length; ++i) {
+    if (!!arr[i] === true) {
+      filteredArray.push(arr[i]);
+    }
+  }
+
+
+
+  return filteredArray;
+
+ // return arr.filter(elem => !!elem ===true)
+}
+
+console.log(filterOutFalsy(["", [], 0, null, undefined, "0"]));
+console.log(filterOutFalsy(["Tomato", "Orange", "Banana", false]));
+console.log(filterOutFalsy(["Banana", "Orange", "Apple"]));
