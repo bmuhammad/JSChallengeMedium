@@ -146,3 +146,20 @@ return new Array(arr.length).fill(0); */
 console.log(convertToZeros([5,100,0]));
 console.log(convertToZeros([12]));
 console.log(convertToZeros([1,2,3,4,5])); */
+
+/*function removeApples(arr){
+
+    let noApple = [];
+    for(let i = 0; i < arr.length; ++i)
+    {
+        if (arr[i] !== 'Apple'){
+            noApple.push(arr[i]);
+        }
+    }
+    return noApple;
+
+}
+
+console.log(removeApples(['Banana','Apple','Orange', 'Apple']));
+console.log(removeApples(['Tomato','Orange','Banana']));
+console.log(removeApples(['Banana','Orange', 'Apple'])); */
